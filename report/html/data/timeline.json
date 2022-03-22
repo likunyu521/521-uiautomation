@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "tangmaoheng-deMacBook-Air.local",
+    "children" : [ {
+      "name" : "15614-MainThread",
+      "children" : [ {
+        "name" : "test_case1",
+        "uid" : "b21acd4f81e0178b",
+        "parentUid" : "48c89c5e2b49cd547b6250d5ea6fdca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1546843185735,
+          "stop" : 1546843342535,
+          "duration" : 156800
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "48c89c5e2b49cd547b6250d5ea6fdca2"
+    } ],
+    "uid" : "577e26d22381ed8ab20093e9d6c8c9bf"
+  } ]
+}

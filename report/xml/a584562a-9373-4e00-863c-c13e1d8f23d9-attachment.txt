@@ -1,0 +1,13 @@
+INFO 19:40:38  当前执行的appium相关配置为：{'platformName': 'Android', 'platformVersion': '10', 'deviceName': 'CLB0219123002349', 'udid': 'CLB0219123002349', 'systemPort': 8201, 'app': '/Users/likunyu/project/521-uiautomation/data/apk/jumei.apk', 'clearSystemFiles': True, 'appActivity': 'com.jm.android.jumei.home.activity.StartActivity', 'appPackage': 'com.jm.android.jumei', 'automationName': 'UIAutomator2', 'noSign': True, 'recreateChromeDriverSessions': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 300} 
+
+INFO 19:40:47  ————————————————————————执行用例 ----------—————————————— 
+
+INFO 19:40:47  start_activity:    com.jm.android.jumei.home.activity.NewHomeActivity
+INFO 19:41:01  [点击]  页面【特卖首页】的元素【搜索输入框】 
+
+INFO 19:41:02  在【分类列表搜索页】页面 对元素【搜索输入框】输入文本【口红】 
+
+INFO 19:41:04  [点击]  页面【分类列表搜索页】的元素【搜索按钮】
+INFO 19:41:05  sleep等待 1 s  
+
+INFO 19:41:06  ————————————————————————该用例执行结束 ----------——————————————

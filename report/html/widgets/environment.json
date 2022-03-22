@@ -1,0 +1,40 @@
+[ {
+  "values" : [ "8.1.0" ],
+  "name" : "device1.platformVersion"
+}, {
+  "values" : [ "/Users/tmh/PycharmProjects/appauto/data/apk/jumei.apk" ],
+  "name" : "appium.app"
+}, {
+  "values" : [ "http://localhost:4723/wd/hub" ],
+  "name" : "device1.appiumserver"
+}, {
+  "values" : [ "http://localhost:4723/wd/hub" ],
+  "name" : "appium.host"
+}, {
+  "values" : [ "/Users/tmh/PycharmProjects/appauto/report" ],
+  "name" : "path.report"
+}, {
+  "values" : [ "com.jm.android.jumei" ],
+  "name" : "appium.appPackage"
+}, {
+  "values" : [ "Android" ],
+  "name" : "device1.platformName"
+}, {
+  "values" : [ "android" ],
+  "name" : "platform.run"
+}, {
+  "values" : [ "com.jm.android.jumei.home.activity.StartActivity" ],
+  "name" : "appium.appActivity"
+}, {
+  "values" : [ "8201" ],
+  "name" : "device1.systemPort"
+}, {
+  "values" : [ "/Users/tmh/PycharmProjects/appauto/tests" ],
+  "name" : "path.tests"
+}, {
+  "values" : [ "1.9.1" ],
+  "name" : "appium.version"
+}, {
+  "values" : [ "2425a80b" ],
+  "name" : "device1.deviceName"
+} ]
