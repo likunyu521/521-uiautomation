@@ -15,8 +15,8 @@ class UserCenterPage(BasePage):
 
     def pageinto(self,action:ElementActions):
         from .set import ProductPages as p
-        p.特卖首页.pageinto(action)
-        action.tap(p.特卖首页.进入用户中心按钮)
+        p.sale_home_page.pageinto(action)
+        action.tap(p.sale_home_page.进入用户中心按钮)
 
 
     def is_logined(self,action:ElementActions):

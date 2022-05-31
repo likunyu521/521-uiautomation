@@ -5,9 +5,9 @@ from base.verify import NotFoundElementError
 
 
 def browseproduct(action:ElementActions,key='专场',position=0):
-    p.搜索后列表页.pageinto(action,key)
+    p.search_result_list_page.pageinto(action, key)
     # 点击对应position的商品
-    action.sleep(1).click_ele(action.find_ele(p.搜索后列表页.商品项标题s, is_Multiple=True)[position]).sleep(2)
+    action.sleep(1).click_ele(action.find_ele(p.search_result_list_page.商品项标题s, is_Multiple=True)[position]).sleep(2)
 
     productname_ele = None
     for index in range(10):

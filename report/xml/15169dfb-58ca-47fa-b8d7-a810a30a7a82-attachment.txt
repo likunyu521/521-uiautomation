@@ -1,0 +1,11 @@
+INFO 12:25:50  当前执行的appium相关配置为：{'platformName': 'Android', 'platformVersion': '10', 'deviceName': 'CLB0219123002349', 'udid': 'CLB0219123002349', 'systemPort': 8201, 'app': '/Users/likunyu/project/521-uiautomation/data/apk/jumei.apk', 'clearSystemFiles': True, 'appActivity': 'AlipayLogin', 'appPackage': 'com.eg.android.AlipayGphone', 'automationName': 'UIAutomator2', 'noSign': True, 'recreateChromeDriverSessions': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 300} 
+
+INFO 12:25:50  Could not connect to port 4723 on host localhost 
+
+INFO 12:25:50  Could not get IP address for host: localhost 
+
+WARNING 12:25:50  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ee552e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /wd/hub/session 
+
+WARNING 12:25:50  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ee55160>: Failed to establish a new connection: [Errno 61] Connection refused')': /wd/hub/session 
+
+WARNING 12:25:50  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ee55130>: Failed to establish a new connection: [Errno 61] Connection refused')': /wd/hub/session

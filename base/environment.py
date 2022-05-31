@@ -1,6 +1,7 @@
 import os,abc,yaml
 from base.shell import *
 from base.utils import log,singleton
+from base.shell import Device
 
 
 
@@ -35,7 +36,7 @@ class EnvironmentAndroid(Environment):
     def get_conf(self):
 
         environment_info_path = str(
-            os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, "data/config_android.yaml")))
+            os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, "data/config_android_zhifubao.yaml")))
 
         log.info('获取环境配置 Path:' + environment_info_path)
         with open(environment_info_path,"r") as f:
@@ -70,10 +71,15 @@ class EnvironmentAndroid(Environment):
 
         # 检查设备
         current_devices = Device.get_android_devices()
+        print(current_devices)
         if len(current_devices)==0:
             log.info('没有设备连接')
             exit()
-        for device in self.devices:
+
+        print(self.devices)
+        for k,device in self.devices.items():
+
+            print(device)
             deviceName=device.get("deviceName")
             if deviceName in current_devices:
                 log.info('已正常连接设备{}'.format(deviceName))

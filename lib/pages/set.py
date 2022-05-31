@@ -2,6 +2,7 @@ from .productpage import *
 from .userpage import *
 from .buypage import *
 from .vedio import *
+from .planttreepages import *
 from base.utils import Conf
 
 
@@ -13,13 +14,11 @@ class UserPages:
     设置页=SetAppPage()
     收藏页=FavouritePage()
 
-
-
 #商品page集合类（商品主干流程相关的）
 class ProductPages:
-    特卖首页=HomePage()
-    分类列表搜索页=CategoryListPage()        #上级页为 特卖首页
-    搜索后列表页=SearchListPage()             #上级页为 分类列表搜索页
+    sale_home_page=HomePage() #特卖首页
+    category_list_search_page=CategoryListPage()  #分类列表搜索页
+    search_result_list_page=SearchListPage()      #搜索结果页
     商品详情页=ProductDetailsPage()
 
 
@@ -31,5 +30,9 @@ class BuyPages:
 class VedioPages:
     视频发布页=VideoReleasePage()
 
+class PlantTreePages:
+    plant_tree_home_page=PlantTreeHomePage()
+    my_tree_page = MyTreePage()
+    other_tree_page = OtherTreePage()
 
 

@@ -1,0 +1,29 @@
+[32mINFO[0m 15:34:03  当前执行的appium相关配置为：{'platformName': 'Android', 'platformVersion': '10', 'deviceName': 'CLB0219123002349', 'udid': 'CLB0219123002349', 'systemPort': 8201, 'clearSystemFiles': True, 'appActivity': 'com.jm.android.jumei.home.activity.StartActivity', 'appPackage': 'com.jm.android.jumei', 'automationName': 'UIAutomator2', 'noSign': True, 'recreateChromeDriverSessions': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 300} 
+
+[32mINFO[0m 15:34:12  ————————————————————————执行用例 ----------——————————————
+[32mINFO[0m 15:34:12  [点击]  页面【特卖首页】的元素【搜索输入框】 
+
+[32mINFO[0m 15:34:15  在【分类列表搜索页】页面 对元素【搜索输入框】输入文本【口红】 
+
+[32mINFO[0m 15:34:16  [点击]  页面【分类列表搜索页】的元素【搜索按钮】 
+
+[32mINFO[0m 15:34:20  ---------向下滑动---------- 
+
+[32mINFO[0m 15:34:20  [查找] 文本 商品参数  
+
+[32mINFO[0m 15:34:22  ---------向下滑动---------- 
+
+[32mINFO[0m 15:34:22  [查找] 文本 商品参数  
+
+[32mINFO[0m 15:34:25  ---------向下滑动---------- 
+
+[32mINFO[0m 15:34:25  [查找] 文本 商品参数  
+
+[32mINFO[0m 15:34:27  [查找] 文本 口红  
+
+[32mINFO[0m 15:34:27  [Text]页面中找到了 口红 文本 
+
+[32mINFO[0m 15:34:27  sleep等待 1 s
+[32mINFO[0m 15:34:28  sleep等待 1 s  
+
+[32mINFO[0m 15:34:30  ————————————————————————该用例执行结束 ----------——————————————

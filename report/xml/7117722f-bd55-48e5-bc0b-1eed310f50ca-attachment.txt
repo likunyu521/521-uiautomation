@@ -1,0 +1,11 @@
+[32mINFO[0m 16:33:02  当前执行的appium相关配置为：{'platformName': 'Android', 'platformVersion': '10', 'deviceName': 'CLB0219123002349', 'udid': 'CLB0219123002349', 'systemPort': 8201, 'app': None, 'clearSystemFiles': True, 'appActivity': 'AlipayLogin', 'appPackage': 'com.eg.android.AlipayGphone', 'automationName': 'UIAutomator2', 'noSign': True, 'recreateChromeDriverSessions': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 300} 
+
+[32mINFO[0m 16:33:10  ————————————————————————执行用例 ----------——————————————
+[32mINFO[0m 16:33:10  [点击]  页面【特卖首页】的元素【搜索输入框】 
+
+[1m[31mERROR[0m 16:33:16  【特卖首页】页面中未能找到元素【搜索输入框】
+ locator: 
+ {'name': '搜索输入框', 'type': 'id', 'value': 'com.jm.android.jumei:id/tv_go_search', 'dynamic': False, 'switch': None, 'page': '特卖首页'}
+[32mINFO[0m 16:33:16  sleep等待 1 s  
+
+[32mINFO[0m 16:33:18  ————————————————————————该用例执行结束 ----------——————————————

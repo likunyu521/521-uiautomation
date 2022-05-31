@@ -1,0 +1,31 @@
+appium:
+# app: /Users/likunyu/project/521-uiautomation/data/apk/jumei.apk
+ appActivity:  AlipayLogin
+ appPackage: com.eg.android.AlipayGphone
+ version: '1.9.1'
+# host: http://172.20.11.15:4723/wd/hub
+ host: http://localhost:4723/wd/hub
+
+
+devices:
+ device1:
+  deviceName: CLB0219123002349
+  platformName: Android
+  platformVersion: '10'
+  appiumserver: http://localhost:4723/wd/hub
+  systemPort: 8201
+
+# device2:
+#  deviceName: 192.168.56.101:5555
+#  platformName: Android
+#  platformVersion: '6.0'
+#  appiumserver: http://172.20.11.11:4723/wd/hub
+#  systemPort: 8201
+#  Resolution: [1080,1920]
+
+path:
+  tests: /Users/likunyu/project/521-uiautomation/tests
+  report: /Users/likunyu/project/521-uiautomation/report
+
+
+

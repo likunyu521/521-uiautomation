@@ -1,0 +1,13 @@
+[32mINFO[0m 15:00:01  当前执行的appium相关配置为：{'platformName': 'Android', 'platformVersion': '10', 'deviceName': 'CLB0219123002349', 'udid': 'CLB0219123002349', 'systemPort': 8201, 'clearSystemFiles': True, 'appActivity': 'com.jm.android.jumei.home.activity.StartActivity', 'appPackage': 'com.jm.android.jumei', 'automationName': 'UIAutomator2', 'noSign': True, 'recreateChromeDriverSessions': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 300} 
+
+[32mINFO[0m 15:00:09  ————————————————————————执行用例 ----------—————————————— 
+
+[32mINFO[0m 15:00:09  start_activity:    com.jm.android.jumei.home.activity.NewHomeActivity
+[32mINFO[0m 15:00:23  [点击]  页面【特卖首页】的元素【搜索输入框】 
+
+[31m[1mERROR[0m 15:00:30  【分类列表搜索页】页面中未能找到元素【搜索输入框】
+ locator: 
+ {'name': '搜索输入框', 'type': 'id', 'value': 'com.jm.android.jumei:id/search_input', 'dynamic': False, 'switch': None, 'page': '分类列表搜索页'}
+[32mINFO[0m 15:00:30  sleep等待 1 s  
+
+[32mINFO[0m 15:00:33  ————————————————————————该用例执行结束 ----------——————————————

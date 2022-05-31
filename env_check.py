@@ -1,5 +1,5 @@
-from base.shell import Shell
-from base.utils import log
+# from base.shell import Shell
+# from base.utils import log
 from base.environment import EnvironmentAndroid
 
 

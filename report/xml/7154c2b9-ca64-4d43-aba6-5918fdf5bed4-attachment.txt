@@ -1,0 +1,15 @@
+[32mINFO[0m 19:01:16  当前执行的appium相关配置为：{'platformName': 'Android', 'platformVersion': '10', 'deviceName': 'CLB0219123002349', 'udid': 'CLB0219123002349', 'systemPort': 8201, 'app': None, 'clearSystemFiles': True, 'appActivity': 'AlipayLogin', 'appPackage': 'com.eg.android.AlipayGphone', 'automationName': 'UIAutomator2', 'noSign': True, 'recreateChromeDriverSessions': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 300} 
+
+[32mINFO[0m 19:01:24  ————————————————————————执行用例 ----------——————————————
+[32mINFO[0m 19:01:24  [点击]  页面【种树首页】的元素【蚂蚁森林入口】 
+
+[32mINFO[0m 19:02:07  sleep等待 5 s  
+
+[32mINFO[0m 19:02:12  [查找] 文本 返回我的森林  
+
+[32mINFO[0m 19:02:12  [Text]页面中找到了 返回我的森林 文本 
+
+[32mINFO[0m 19:02:12  sleep等待 1 s
+[32mINFO[0m 19:02:13  sleep等待 1 s  
+
+[32mINFO[0m 19:02:16  ————————————————————————该用例执行结束 ----------——————————————

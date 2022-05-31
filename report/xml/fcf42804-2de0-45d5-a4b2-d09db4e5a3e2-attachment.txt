@@ -1,0 +1,8 @@
+[32mINFO[0m 14:12:56  当前执行的appium相关配置为：{'platformName': 'Android', 'platformVersion': '10', 'deviceName': 'CLB0219123002349', 'udid': 'CLB0219123002349', 'systemPort': 8201, 'clearSystemFiles': True, 'appActivity': 'AlipayLogin', 'appPackage': 'com.eg.android.AlipayGphone', 'automationName': 'UIAutomator2', 'noSign': True, 'recreateChromeDriverSessions': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 300} 
+
+[32mINFO[0m 14:13:05  ————————————————————————执行用例 ----------—————————————— 
+
+[32mINFO[0m 14:13:05  start_activity:    com.jm.android.jumei.home.activity.NewHomeActivity
+[32mINFO[0m 14:13:06  sleep等待 1 s  
+
+[32mINFO[0m 14:13:10  ————————————————————————该用例执行结束 ----------——————————————

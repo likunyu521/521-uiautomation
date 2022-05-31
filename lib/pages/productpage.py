@@ -35,7 +35,7 @@ class HomePage(BasePage):
         self.关闭初始化浮窗=self.get_locator('关闭初始化浮窗','tap','891,132')
         self.关闭初始化弹出窗=self.get_locator("关闭初始化弹出窗",'id','com.jm.android.jumei:id/image_home_full_close')
 
-        self.搜索输入框=self.get_locator("搜索输入框",'id','com.jm.android.jumei:id/tv_go_search')
+        self.search_box=self.get_locator("搜索输入框", 'id', 'com.jm.android.jumei:id/tv_go_search')
 
         self.导航栏=self.get_locator("导航栏",'id','com.jm.android.jumei:id/home_navigate_tab')
         self.导航栏_推荐=self.get_locator("导航栏_推荐",'xpath','//android.widget.TextView[@text="推荐"]')
@@ -53,7 +53,7 @@ class HomePage(BasePage):
 
 
     def load_ios(self):
-        self.搜索输入框="4455"
+        self.search_box= "4455"
 
 
 class CategoryListPage(BasePage):
@@ -67,8 +67,8 @@ class CategoryListPage(BasePage):
     def load_android(self):
         self.activity="com.jumei.list.category.CategoryListActivity"
 
-        self.搜索输入框=self.get_locator("搜索输入框",'id','com.jm.android.jumei:id/search_input')
-        self.搜索按钮=self.get_locator("搜索按钮",'id','com.jm.android.jumei:id/search_bt')
+        self.search_box=self.get_locator("搜索输入框", 'id', 'com.jm.android.jumei:id/search_input')
+        self.search_button=self.get_locator("搜索按钮", 'id', 'com.jm.android.jumei:id/search_bt')
 
 
 
@@ -81,7 +81,7 @@ class SearchListPage(BasePage):
     def pageinto(self,action:ElementActions,key="专场"):
         categorylistpage=CategoryListPage()
         categorylistpage.pageinto(action)
-        action.text(categorylistpage.搜索输入框,key).click(categorylistpage.搜索按钮)
+        action.text(categorylistpage.search_box, key).click(categorylistpage.search_button)
 
 
     def load_android(self):

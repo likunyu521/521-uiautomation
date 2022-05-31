@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
 import os,sys,pytest
 from base.utils import log
-from base.environment import EnvironmentAndroid
+# from base.environment import EnvironmentAndroid
 
 import subprocess
-
-
 
 
 #Device类，用get_android_devices返回执行adb devices命令时的devices信息（即获取当前链接的机子devicename）
